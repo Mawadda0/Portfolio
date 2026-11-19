@@ -1,7 +1,7 @@
 html { color-scheme: light; }
 body { margin: 0; }
 
-/* Layout: sticky nav with a scroll XP bar, a full-bleed pixel hero whose sky, light and walker follow the scroll, then pink and mint panels for about, quests, repos and the terminal. */
+/* Layout: sticky nav with a scroll XP bar, a full-bleed pixel hero whose sky, light and walker follow the scroll */
 :root {
   --gl: max(16px, env(safe-area-inset-left, 0px));
   --gr: max(16px, env(safe-area-inset-right, 0px));

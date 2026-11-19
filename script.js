@@ -373,7 +373,6 @@
     out.scrollTop = out.scrollHeight;
   }
 
-  
   var commands = {
     help: function () {
       print('Available commands:');
@@ -500,7 +499,6 @@ var statsObserver = new IntersectionObserver(function (entries) {
 }, { threshold: 0.5 });
 
 statsObserver.observe(document.querySelector('.oss-stats'));
-
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
